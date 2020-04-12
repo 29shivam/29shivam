@@ -1,0 +1,30 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+             var array = ["B. R. Ambedkar",
+  "A. P. J. Abdul Kalam",
+  "Vallabhbhai Patel.",
+  "Jawaharlal Nehru.",
+  "Mother Teresa.",
+  "J. R. D. Tata.",
+  "Indira Gandhi.",
+  "Narendra Modi",
+  "Arvind Kejriwal",
+  "Baba Ramdev",
+  "Sundar Pichai",
+  "Nandan Nilekani",
+  "Mukesh Ambani",
+  "M.S. Dhoni"];
+                function getRandomText() {
+                    var num = Math.floor( Math.random() * array.length );
+                    document.getElementById("text").innerHTML=array[num];
+                }
+        </script>
+    </head>
+<body>
+    <button onclick="getRandomText()">Random Name</button>
+    <p id="text"></p>
+
+</body>
+</html>
