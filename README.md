@@ -80,14 +80,8 @@ always:         Shipping · Learning · Building things that matter
 6f3a2d1  🏦  Trade allocation engine       → Java · Kafka · Redis · PostgreSQL
          ↳  High-throughput pipeline processing real-time financial transactions
 
-a82c910  🤖  LLM-powered RAG system         → Python · AWS Lambda · Vector DBs
-         ↳  Retrieval-augmented generation pipeline for intelligent search
-
 e71f304  🔄  MySQL → PostgreSQL migration   → Zero-downtime · Data integrity at scale
          ↳  Live production migration with zero data loss across services
-
-d4509b8  📊  WHS Risk analytics dashboard   → QuickSight · Redshift · Python ETL
-         ↳  Executive safety dashboards integrating 4 enterprise data sources
 
 b193aa7  📡  Real-time Kafka pipeline       → MSK · Flink · AWS EKS
          ↳  40% throughput improvement on event-streaming infrastructure
