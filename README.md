@@ -105,13 +105,6 @@ Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 
 </div>
 
-## 📊 Activity
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=29shivam&show_icons=true&hide_border=true&bg_color=0f172a&title_color=22d3ee&icon_color=22d3ee&text_color=cbd5e1&border_radius=8&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=29shivam&layout=compact&hide_border=true&bg_color=0f172a&title_color=22d3ee&text_color=cbd5e1&border_radius=8" height="165"/>
-</div>
-
 ---
 
 <div align="center">
