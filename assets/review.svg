@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="20" viewBox="0 0 116 20" fill="none">
+  <rect width="116" height="20" rx="3" fill="#d97706"/>
+  <circle cx="11" cy="10" r="4.5" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M11 5.5 A4.5 4.5 0 0 1 15.5 10" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 11 10" to="360 11 10" dur="0.9s" repeatCount="indefinite"/>
+  </path>
+  <text x="23" y="14" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">under review</text>
+</svg>

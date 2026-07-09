@@ -14,49 +14,53 @@
 I don't think a bio is convincing evidence of anything, so instead of
 describing myself, here's what I've actually done — every row below links
 to a real diff you can go read right now.
+<sub>Status is honest: <img src="assets/merged.svg" alt="merged" height="16"/> means it shipped; <img src="assets/review.svg" alt="under review" height="16"/> means it's an open PR awaiting maintainer review.</sub>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## 🔍 Proof, not adjectives
 
 <table>
 <tr>
-<td width="45%" valign="top"><b>I can navigate and fix a codebase I don't own, at any scale</b></td>
-<td width="55%">
-<img src="https://img.shields.io/badge/elastic%2Felasticsearch-77k★-005571?style=flat-square&logo=elasticsearch&logoColor=white"/><br/>
-<a href="https://github.com/elastic/elasticsearch/pull/152712">PR #152712</a> — race-condition fix in snapshot lifecycle retries<br/>
-<a href="https://github.com/elastic/elasticsearch/pull/153355">PR #153355</a> — field-type validation bug across two query types
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Security is a habit, not a checklist item</b></td>
-<td>
-<img src="https://img.shields.io/badge/CVE-CRITICAL_fixed-e11d48?style=flat-square&logo=hackthebox&logoColor=white"/> <img src="https://img.shields.io/badge/status-merged-22c55e?style=flat-square"/><br/>
-Root-caused and fixed a <b>CRITICAL</b> Spring Security CVE + 5 others in <a href="https://github.com/Vault-Web/vault-web/pull/267">Vault-Web #267</a> (<b>merged</b>) — one dependency bump, six vulnerabilities closed
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Comfortable across the Kafka ecosystem end-to-end</b></td>
-<td>
-<img src="https://img.shields.io/badge/Apache%20Kafka-ecosystem-231F20?style=flat-square&logo=apachekafka&logoColor=white"/><br/>
-<a href="https://github.com/kafbat/kafka-ui/pull/1904">kafka-ui #1904</a> — reverse-proxy auth bug<br/>
-<a href="https://github.com/spring-projects/spring-kafka/pull/4518">spring-kafka #4518</a> — official Spring project
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Distributed systems as trade-offs, not diagrams</b></td>
-<td>
-<img src="https://img.shields.io/badge/original%20project-system--design--tradeoffs-22d3ee?style=flat-square"/><br/>
-Built <a href="https://github.com/29shivam/system-design-tradeoffs">system-design-tradeoffs</a> from scratch — every answer is a trade-off matrix, real Spring Boot/Kafka/Redis code, and a production incident
+<td width="42%" valign="top"><b>Security is a habit, not a checklist item</b></td>
+<td width="58%">
+<img src="https://img.shields.io/badge/CVE-CRITICAL-e11d48?style=flat-square&logo=hackthebox&logoColor=white"/> <img src="assets/merged.svg" alt="merged"/><br/>
+Root-caused and fixed a <b>CRITICAL</b> Spring Security CVE + 5 others in <a href="https://github.com/Vault-Web/vault-web/pull/267">Vault-Web #267</a> — one dependency bump, six vulnerabilities closed
 </td>
 </tr>
 <tr>
 <td valign="top"><b>I finish things, not just propose them</b></td>
 <td>
-<img src="https://img.shields.io/badge/merged-shipped-22c55e?style=flat-square"/><br/>
+<img src="assets/merged.svg" alt="merged"/><br/>
 <a href="https://github.com/Vault-Web/vault-web/pull/250">Vault-Web #250</a> — chat UI stability fix<br/>
 <a href="https://github.com/Vault-Web/vault-web/pull/244">Vault-Web #244</a> — JVM/Postgres timezone bug
 </td>
 </tr>
+<tr>
+<td valign="top"><b>I can navigate and fix a codebase I don't own, at any scale</b></td>
+<td>
+<img src="https://img.shields.io/badge/elastic%2Felasticsearch-77k★-005571?style=flat-square&logo=elasticsearch&logoColor=white"/> <img src="assets/review.svg" alt="under review"/><br/>
+<a href="https://github.com/elastic/elasticsearch/pull/152712">PR #152712</a> — race-condition fix in snapshot lifecycle retries, in the search engine behind a huge share of the internet
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Comfortable across the Kafka ecosystem end-to-end</b></td>
+<td>
+<img src="https://img.shields.io/badge/Apache%20Kafka-ecosystem-231F20?style=flat-square&logo=apachekafka&logoColor=white"/> <img src="assets/review.svg" alt="under review"/><br/>
+<a href="https://github.com/kafbat/kafka-ui/pull/1904">kafka-ui #1904</a> — reverse-proxy OAuth bug<br/>
+<a href="https://github.com/spring-projects/spring-kafka/pull/4518">spring-kafka #4518</a> — the official Spring project
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Distributed systems as trade-offs, not diagrams</b></td>
+<td>
+<img src="https://img.shields.io/badge/original_project-system--design--tradeoffs-22d3ee?style=flat-square"/><br/>
+Built <a href="https://github.com/29shivam/system-design-tradeoffs">system-design-tradeoffs</a> from scratch — every answer is a trade-off matrix, real Spring Boot/Kafka/Redis code, and a production incident
+</td>
+</tr>
 </table>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## 🚧 Currently building
 
@@ -102,6 +106,18 @@ Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+</div>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+## 📈 Contribution activity
+
+<div align="center">
+
+<img src="assets/contributions.svg" alt="My GitHub contribution heatmap, animated" width="100%"/>
+
+<sub>Custom-built from my live GitHub data, regenerated daily by a GitHub Action — not an off-the-shelf widget.</sub>
 
 </div>
 
