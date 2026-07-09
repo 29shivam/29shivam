@@ -29,8 +29,8 @@ to a real diff you can go read right now.
 <tr>
 <td valign="top"><b>Security is a habit, not a checklist item</b></td>
 <td>
-<img src="https://img.shields.io/badge/CVE-CRITICAL_fixed-e11d48?style=flat-square&logo=hackthebox&logoColor=white"/><br/>
-Root-caused and fixed a <b>CRITICAL</b> Spring Security CVE + 5 others in <a href="https://github.com/Vault-Web/vault-web/pull/267">Vault-Web #267</a> — one dependency bump, six vulnerabilities closed
+<img src="https://img.shields.io/badge/CVE-CRITICAL_fixed-e11d48?style=flat-square&logo=hackthebox&logoColor=white"/> <img src="https://img.shields.io/badge/status-merged-22c55e?style=flat-square"/><br/>
+Root-caused and fixed a <b>CRITICAL</b> Spring Security CVE + 5 others in <a href="https://github.com/Vault-Web/vault-web/pull/267">Vault-Web #267</a> (<b>merged</b>) — one dependency bump, six vulnerabilities closed
 </td>
 </tr>
 <tr>
