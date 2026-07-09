@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)"/>
+
+  <!-- trade-off graph motif, same language as system-design-tradeoffs -->
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <line x1="720" y1="50" x2="810" y2="110"/>
+    <line x1="720" y1="110" x2="810" y2="110"/>
+    <line x1="720" y1="170" x2="810" y2="110"/>
+  </g>
+  <circle cx="720" cy="50" r="6" fill="#475569"/>
+  <circle cx="720" cy="110" r="6" fill="#475569"/>
+  <circle cx="720" cy="170" r="6" fill="#475569"/>
+  <circle cx="810" cy="110" r="10" fill="url(#accent)"/>
+
+  <text x="60" y="92" font-family="Menlo, Consolas, monospace" font-size="38" font-weight="700" fill="#f8fafc">
+    Shivam Singh
+  </text>
+  <text x="60" y="128" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8">
+    Backend engineer. I ship fixes into codebases I don't own,
+  </text>
+  <text x="60" y="152" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8">
+    then link you the diff instead of the adjective.
+  </text>
+  <rect x="60" y="172" width="46" height="4" fill="url(#accent)"/>
+</svg>

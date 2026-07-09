@@ -1,164 +1,53 @@
 <div align="center">
 
-```
-░██████╗██╗░░██╗██╗██╗░░░██╗░█████╗░███╗░░░███╗
-██╔════╝██║░░██║██║██║░░░██║██╔══██╗████╗░████║
-╚█████╗░███████║██║╚██╗░██╔╝███████║██╔████╔██║
-░╚═══██╗██╔══██║██║░╚████╔╝░██╔══██║██║╚██╔╝██║
-██████╔╝██║░░██║██║░░╚██╔╝░░██║░░██║██║░╚═╝░██║
-╚═════╝░╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░╚═╝
-```
+<img src="assets/banner.svg" alt="Shivam Singh" width="100%">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=620&lines=Backend+Engineer+%7C+~4.5+years+of+shipping;Java+%C2%B7+Spring+Boot+%C2%B7+Microservices;AWS+Certified+Solutions+Architect+%E2%98%81%EF%B8%8F;Kafka+%C2%B7+Kubernetes+%C2%B7+Data+Pipelines;Building+systems+that+scale+%F0%9F%9A%80)](https://git.io/typing-svg)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/29shivam)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/29shivam/)
-[![AWS Certified](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-%23FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
-![Chicago](https://img.shields.io/badge/📍-Chicago%2C%20IL-%2300D9FF?style=for-the-badge)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/29shivam)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/29shivam/)
+[![AWS Certified](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+![Chicago](https://img.shields.io/badge/Chicago,%20IL-0f172a?style=flat-square)
 
 </div>
 
----
+I don't think a bio is convincing evidence of anything, so instead of
+describing myself, here's what I've actually done — every line below links
+to something you can go check right now.
 
-## `$ whoami`
+## Proof, not adjectives
 
-```yaml
-role:           Backend Software Engineer
-experience:     ~4.5 years
-certified:      AWS Solutions Architect – Associate ☁️
-stack_core:     Java · Spring Boot · Python · Node.js
-stack_cloud:    AWS (EKS · RDS · Lambda · CloudWatch) · Docker · Kubernetes
-stack_data:     Kafka · PostgreSQL · Redis · MongoDB · Redshift · QuickSight
-interests:      Distributed systems · Cloud-native architecture · Data engineering
-always:         Shipping · Learning · Building things that matter
-```
+| What I'd normally just claim | Where you can verify it |
+|---|---|
+| I can navigate and fix a codebase I don't own, at any scale | Open PRs in [`elastic/elasticsearch`](https://github.com/elastic/elasticsearch) (77k★) — [a race-condition fix in snapshot lifecycle retries](https://github.com/elastic/elasticsearch/pull/152712), and [a field-type validation bug](https://github.com/elastic/elasticsearch/pull/153355) affecting two query types |
+| Security is a habit, not a checklist item | Root-caused and fixed a **CRITICAL** Spring Security CVE plus 5 others in [`Vault-Web/vault-web#267`](https://github.com/Vault-Web/vault-web/pull/267) — one dependency bump, six vulnerabilities closed |
+| Comfortable across the Kafka ecosystem end-to-end, not just the happy path | Fixes open in [`kafka-ui`](https://github.com/kafbat/kafka-ui/pull/1904) (reverse-proxy auth bug) and [`spring-kafka`](https://github.com/spring-projects/spring-kafka/pull/4518) — the official Spring project |
+| I understand distributed systems as trade-offs, not diagrams | Built [`system-design-tradeoffs`](https://github.com/29shivam/system-design-tradeoffs) from scratch — every answer is a trade-off matrix, real buildable code, and a production incident, not a picture of boxes and arrows |
+| I finish things, not just propose them | Merged and shipped: [chat UI stability fix](https://github.com/Vault-Web/vault-web/pull/250) and a [JVM/Postgres timezone bug](https://github.com/Vault-Web/vault-web/pull/244) |
 
----
+## Currently building
 
-## `$ cat ./stack`
+**[system-design-tradeoffs](https://github.com/29shivam/system-design-tradeoffs)**
+— most interview prep hands you a diagram and calls it the answer. This
+doesn't: every question is a trade-off matrix, a mock interview transcript
+showing the actual follow-up drilling, a real production incident, and
+buildable Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 
-<div align="center">
+## Selected production work
 
-**Backend**
+- **Trade allocation engine** — Java, Kafka, Redis, PostgreSQL — high-throughput pipeline processing real-time financial transactions
+- **Real-time Kafka pipeline** — AWS MSK, Flink, EKS — 40% throughput improvement on event-streaming infrastructure
+- **Live MySQL → PostgreSQL migration** — zero downtime, zero data loss, across live production services
+- **Microservices security hardening** — Spring Boot, JWT, API Gateway — auth hardening across a distributed service mesh
+- **Book management REST API** — Spring Boot, PATCH-based versioning — clause versioning & metadata endpoints for a document assembly system
 
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+## Stack
 
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
-**Data & Messaging**
-
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C4FFF?style=for-the-badge&logo=amazon-redshift&logoColor=white)
-
-**Frontend & APIs**
-
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST](https://img.shields.io/badge/REST%20APIs-000000?style=for-the-badge&logo=fastapi&logoColor=white)
-
-</div>
-
----
-
-## `$ git log --oneline --stat`
-
-```
-6f3a2d1  🏦  Trade allocation engine       → Java · Kafka · Redis · PostgreSQL
-         ↳  High-throughput pipeline processing real-time financial transactions
-
-e71f304  🔄  MySQL → PostgreSQL migration   → Zero-downtime · Data integrity at scale
-         ↳  Live production migration with zero data loss across services
-
-b193aa7  📡  Real-time Kafka pipeline       → MSK · Flink · AWS EKS
-         ↳  40% throughput improvement on event-streaming infrastructure
-
-c009f61  🔐  Microservices security layer   → Spring Boot · JWT · API Gateway
-         ↳  Auth hardening across distributed service mesh
-
-9d1e775  🏗️   Book management REST API      → Spring Boot · PATCH · CRUD versioning
-         ↳  Clause versioning & metadata endpoints for document assembly system
-```
-
----
-
-## `$ cat ./aws.cert`
-
-<div align="center">
-
-```
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   ☁️  AWS Certified Solutions Architect              │
-│        Associate                                     │
-│                                                      │
-│   Production experience:                            │
-│   ┌─────────────────────────────────────────────┐   │
-│   │  EKS  ·  RDS  ·  Lambda  ·  CloudWatch      │   │
-│   │  S3   ·  EC2  ·  MSK     ·  QuickSight      │   │
-│   └─────────────────────────────────────────────┘   │
-│                                                      │
-│   Domains:  Resilient · High-Performing              │
-│             Secure · Cost-Optimized                  │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## `$ tail -f ./now.log`
-
-```log
-[2026] ACTIVE  → Deepening expertise in data engineering & streaming (Kafka · Flink · Kinesis)
-[2026] ACTIVE  → Building ETL pipelines with medallion architecture & CDC patterns
-[2026] ACTIVE  → Hackathons: always  |  Tech conferences: yes  |  Learning: never stops
-[2026] OPEN    → Interesting problems · Strong engineering cultures · Systems that scale
-```
-
----
-
-## `$ ./stats.sh`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=29shivam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=29shivam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" height="170"/>
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=29shivam&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=00D9FF&sideLabels=c9d1d9&dates=c9d1d9)](https://git.io/streak-stats)
-
-</div>
+Java · Spring Boot · Python · Kafka · PostgreSQL · Redis · MongoDB · AWS (EKS · MSK · Lambda · RDS · CloudWatch) · Docker · Kubernetes · React
 
 ---
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║   if (you.haveInterestingProblems()) {               ║
-║       shivam.connect();   // always open             ║
-║   }                                                  ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=29shivam&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)
+If you've got an interesting distributed-systems or backend problem, that's
+the fastest way to get my attention — [LinkedIn](https://linkedin.com/in/29shivam) is open.
 
 </div>
