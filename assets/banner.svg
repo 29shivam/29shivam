@@ -1,36 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e2947"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+      <stop offset="55%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="900" height="220" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#glow)"/>
 
-  <!-- trade-off graph motif, same language as system-design-tradeoffs -->
-  <g stroke="#334155" stroke-width="2" fill="none">
-    <line x1="720" y1="50" x2="810" y2="110"/>
-    <line x1="720" y1="110" x2="810" y2="110"/>
-    <line x1="720" y1="170" x2="810" y2="110"/>
+  <!-- distributed network texture, full width -->
+  <g stroke="#2b3a5e" stroke-width="1.2" opacity="0.75">
+    <line x1="560" y1="40" x2="660" y2="90"/>
+    <line x1="560" y1="90" x2="660" y2="90"/>
+    <line x1="560" y1="140" x2="660" y2="90"/>
+    <line x1="660" y1="90" x2="760" y2="60"/>
+    <line x1="660" y1="90" x2="760" y2="130"/>
+    <line x1="760" y1="130" x2="860" y2="100"/>
+    <line x1="760" y1="130" x2="860" y2="170"/>
+    <line x1="860" y1="170" x2="945" y2="145"/>
+    <line x1="860" y1="170" x2="945" y2="205"/>
+    <line x1="760" y1="60" x2="860" y2="40"/>
+    <line x1="660" y1="180" x2="760" y2="200"/>
+    <line x1="560" y1="140" x2="660" y2="180"/>
+    <line x1="760" y1="200" x2="860" y2="230"/>
   </g>
-  <circle cx="720" cy="50" r="6" fill="#475569"/>
-  <circle cx="720" cy="110" r="6" fill="#475569"/>
-  <circle cx="720" cy="170" r="6" fill="#475569"/>
-  <circle cx="810" cy="110" r="10" fill="url(#accent)"/>
+  <g fill="#3b4c78">
+    <circle cx="560" cy="40" r="4"/>
+    <circle cx="560" cy="90" r="4"/>
+    <circle cx="560" cy="140" r="4"/>
+    <circle cx="660" cy="180" r="4"/>
+    <circle cx="760" cy="60" r="4"/>
+    <circle cx="760" cy="200" r="4"/>
+    <circle cx="860" cy="40" r="4"/>
+    <circle cx="860" cy="100" r="4"/>
+    <circle cx="860" cy="230" r="4"/>
+  </g>
+  <g fill="url(#accent)" filter="url(#softGlow)">
+    <circle cx="660" cy="90" r="7"/>
+    <circle cx="760" cy="130" r="7"/>
+    <circle cx="860" cy="170" r="9"/>
+    <circle cx="945" cy="145" r="6"/>
+    <circle cx="945" cy="205" r="6"/>
+  </g>
 
-  <text x="60" y="92" font-family="Menlo, Consolas, monospace" font-size="38" font-weight="700" fill="#f8fafc">
+  <text x="56" y="108" font-family="Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#f8fafc">
     Shivam Singh
   </text>
-  <text x="60" y="128" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8">
-    Backend engineer. I ship fixes into codebases I don't own,
+  <rect x="58" y="122" width="54" height="5" rx="2" fill="url(#accent)"/>
+
+  <text x="56" y="164" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#cbd5e1">
+    Backend engineer. AWS Certified.
   </text>
-  <text x="60" y="152" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8">
-    then link you the diff instead of the adjective.
+  <text x="56" y="192" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#cbd5e1">
+    I ship fixes into codebases I don't own —
   </text>
-  <rect x="60" y="172" width="46" height="4" fill="url(#accent)"/>
+  <text x="56" y="220" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#22d3ee" font-weight="600">
+    every claim below links to the diff.
+  </text>
+
+  <text x="56" y="256" font-family="Menlo, Consolas, monospace" font-size="14" fill="#64748b">
+    Java · Spring Boot · Kafka · PostgreSQL · Redis · AWS · React
+  </text>
 </svg>
