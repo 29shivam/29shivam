@@ -46,7 +46,8 @@ Root-caused and fixed a <b>CRITICAL</b> Spring Security CVE + 5 others in <a hre
 <tr>
 <td valign="top"><b>Comfortable across the Kafka ecosystem end-to-end</b></td>
 <td>
-<img src="https://img.shields.io/badge/Apache%20Kafka-ecosystem-231F20?style=flat-square&logo=apachekafka&logoColor=white"/> <img src="assets/review.svg" alt="under review"/><br/>
+<img src="https://img.shields.io/badge/Apache%20Kafka-ecosystem-231F20?style=flat-square&logo=apachekafka&logoColor=white"/> <img src="assets/merged.svg" alt="merged"/> <img src="assets/review.svg" alt="under review"/><br/>
+<a href="https://github.com/ClickHouse/clickhouse-kafka-connect/pull/775">clickhouse-kafka-connect #775</a> — NPE fix when writing null into a Nullable(JSON) column, merged by ClickHouse<br/>
 <a href="https://github.com/kafbat/kafka-ui/pull/1904">kafka-ui #1904</a> — reverse-proxy OAuth bug<br/>
 <a href="https://github.com/spring-projects/spring-kafka/pull/4518">spring-kafka #4518</a> — the official Spring project
 </td>
