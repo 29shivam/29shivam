@@ -373,6 +373,7 @@
 <rect x="750" y="96" width="11" height="11" rx="2.5" fill="#0c4a5e"><animate attributeName="opacity" values="1;0.5;1" dur="2.7s" begin="1.1s" repeatCount="indefinite"/></rect>
 <rect x="750" y="110" width="11" height="11" rx="2.5" fill="#67e8f9"><animate attributeName="opacity" values="1;0.5;1" dur="2.7s" begin="1.12s" repeatCount="indefinite"/></rect>
 <rect x="750" y="124" width="11" height="11" rx="2.5" fill="#1e293b"/>
+<rect x="750" y="138" width="11" height="11" rx="2.5" fill="#1e293b"/>
 <rect x="22" y="54" width="26" height="95" fill="url(#scan)" opacity="0.9" filter="url(#g)"><animateTransform attributeName="transform" type="translate" from="-40 0" to="739 0" dur="4.5s" begin="2s" repeatCount="indefinite"/></rect>
 <text x="618" y="176" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="end">Less</text>
 <rect x="626" y="167" width="11" height="11" rx="2.5" fill="#1e293b"/>
