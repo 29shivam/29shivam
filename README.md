@@ -78,8 +78,18 @@ doesn't: every question is a trade-off matrix, a mock interview transcript
 showing the real follow-up drilling, a production incident, and buildable
 Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 
-**aphno.ai** &nbsp;·&nbsp; **alpcove** — two new projects in progress; deeper
-write-ups landing here soon.
+**[aphno.ai](https://github.com/29shivam/aphno)** — UPI-native expense splitting
+for India. Split in groups or 1-on-1, let it work out who owes whom in the fewest
+payments (min-cash-flow debt simplification), and settle in one tap via a `upi://`
+deep link — live over WebSockets. One Expo (React Native) codebase ships web + iOS
++ Android; Fastify + Prisma on the back.
+
+**alphacove** — *the institutional terminal, without the institution.* A
+multi-tenant portfolio-intelligence app that gives retail investors desk-grade
+analytics — live prices, risk metrics (RSI, volatility, max drawdown), and
+Claude-powered portfolio analysis — built entirely on open, keyless data (Yahoo
+Finance now; SEC EDGAR insider + 13F flow next). Next.js 14, TypeScript,
+Prisma/Postgres.
 
 ## 💼 Selected production work
 

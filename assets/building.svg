@@ -57,9 +57,9 @@
     <text class="work" x="650" y="184">building…</text>
   </g>
 
-  <!-- Row 3: alpcove — building (indeterminate) -->
+  <!-- Row 3: alphacove — building (indeterminate) -->
   <g class="line" style="animation-delay:1.45s">
-    <text class="name" x="30" y="228">alpcove</text>
+    <text class="name" x="30" y="228">alphacove</text>
     <rect x="300" y="217" width="330" height="12" rx="6" fill="#152036"/>
     <g clip-path="url(#t3)"><rect class="sweep" x="300" y="217" width="120" height="12" fill="url(#glint)" style="animation-delay:.85s"/></g>
     <circle class="dot" cx="639" cy="224" r="3.5" fill="#22d3ee" style="animation-delay:.55s"/>
