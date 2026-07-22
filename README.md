@@ -66,6 +66,12 @@ Built <a href="https://github.com/29shivam/system-design-tradeoffs">system-desig
 
 ## 🚧 Currently building
 
+<div align="center">
+
+<img src="assets/building.svg" alt="Animated build console showing my projects currently in progress" width="100%"/>
+
+</div>
+
 **[system-design-tradeoffs](https://github.com/29shivam/system-design-tradeoffs)**
 — most interview prep hands you a diagram and calls it the answer. This
 doesn't: every question is a trade-off matrix, a mock interview transcript
