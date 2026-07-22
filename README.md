@@ -72,6 +72,9 @@ doesn't: every question is a trade-off matrix, a mock interview transcript
 showing the real follow-up drilling, a production incident, and buildable
 Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 
+**aphno.ai** &nbsp;·&nbsp; **alpcove** — two new projects in progress; deeper
+write-ups landing here soon.
+
 ## 💼 Selected production work
 
 - **Trade allocation engine** — Java, Kafka, Redis, PostgreSQL — high-throughput pipeline processing real-time financial transactions
@@ -116,6 +119,12 @@ Spring Boot/Kafka/Redis/Postgres code behind the chosen approach.
 ## 📈 Contribution activity
 
 <div align="center">
+
+<img src="assets/shipping-log.svg" alt="Animated terminal: git log of my merged open-source pull requests" width="100%"/>
+
+<sub>A hand-built animated SVG — my real merged open-source PRs, revealed like a live <code>git log</code>. Not a widget.</sub>
+
+<br/><br/>
 
 <img src="assets/contributions.svg" alt="My GitHub contribution heatmap, animated" width="100%"/>
 

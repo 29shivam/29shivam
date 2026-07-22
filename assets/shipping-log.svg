@@ -1,0 +1,38 @@
+<svg viewBox="0 0 820 384" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated git log of merged open-source pull requests by Shivam">
+  <style>
+    text   { font-size: 14px; font-family: "SFMono-Regular","JetBrains Mono","Cascadia Code","Roboto Mono",Consolas,monospace; }
+    .title { fill: #64748b; font-size: 13px; letter-spacing: .3px; }
+    .prompt{ fill: #34d399; }
+    .cmd   { fill: #94a3b8; }
+    .ok    { fill: #34d399; }
+    .repo  { fill: #22d3ee; font-weight: 600; }
+    .msg   { fill: #cbd5e1; }
+    .note2 { fill: #475569; font-size: 13px; }
+    .line  { opacity: 0; animation: rise .55s cubic-bezier(.22,.61,.36,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+    .cur   { animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .glow  { animation: glow 2.4s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: 1; } 50% { opacity: .5; } }
+  </style>
+
+  <rect x="8" y="8" width="804" height="368" rx="13" fill="#0b1020" stroke="#1e293b" stroke-width="1.5"/>
+  <path d="M8 21 A13 13 0 0 1 21 8 H799 A13 13 0 0 1 812 21 V50 H8 Z" fill="#111a2e"/>
+  <circle cx="32" cy="29" r="6" fill="#ff5f56"/>
+  <circle cx="54" cy="29" r="6" fill="#ffbd2e"/>
+  <circle cx="76" cy="29" r="6" fill="#27c93f"/>
+  <text class="title" x="410" y="33" text-anchor="middle">shivam@oss: ~/contributions — git log</text>
+
+  <text class="line" x="30" y="90" style="animation-delay:.15s"><tspan class="prompt">$</tspan><tspan class="cmd"> git log --author=shivam --merged --oneline</tspan></text>
+
+  <text class="line" x="30" y="128" style="animation-delay:.85s"><tspan class="ok">✓</tspan><tspan class="repo">  clickhouse-kafka-connect #790</tspan><tspan class="msg">   surface failing column context on conversion errors</tspan></text>
+  <text class="line" x="30" y="162" style="animation-delay:1.30s"><tspan class="ok">✓</tspan><tspan class="repo">  clickhouse-kafka-connect #775</tspan><tspan class="msg">   fix NPE writing null into a Nullable(JSON) column</tspan></text>
+  <text class="line" x="30" y="196" style="animation-delay:1.75s"><tspan class="ok">✓</tspan><tspan class="repo">  vault-web #267</tspan><tspan class="msg">   bump spring-boot to 3.5.16 — closes multiple CVEs</tspan></text>
+  <text class="line" x="30" y="230" style="animation-delay:2.20s"><tspan class="ok">✓</tspan><tspan class="repo">  vault-web #254</tspan><tspan class="msg">   prevent layout overflow on mobile viewports</tspan></text>
+  <text class="line" x="30" y="264" style="animation-delay:2.65s"><tspan class="ok">✓</tspan><tspan class="repo">  vault-web #250</tspan><tspan class="msg">   keep chat composer visible when the mobile keyboard opens</tspan></text>
+  <text class="line" x="30" y="298" style="animation-delay:3.10s"><tspan class="ok">✓</tspan><tspan class="repo">  vault-web #244</tspan><tspan class="msg">   pin JVM timezone to UTC to fix Postgres handshake failure</tspan></text>
+
+  <text class="line" x="30" y="336" style="animation-delay:3.65s"><tspan class="note2"># 6 merged across ClickHouse &amp; Vault-Web — shipping continues</tspan></text>
+  <text class="line" x="30" y="362" style="animation-delay:4.05s"><tspan class="prompt">$</tspan></text>
+  <rect class="cur glow" x="42" y="351" width="9" height="15" rx="1" fill="#22d3ee" style="animation-delay:4.05s"/>
+</svg>
